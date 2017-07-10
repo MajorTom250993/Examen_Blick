@@ -1,0 +1,63 @@
+.edificios__container {
+  background-image: url(https://s3.amazonaws.com/assets.mockflow.com/app/styleguide/company/Ccc483f21e64e41199f504e4d14b4dec5/projects/c9dc567be10837d180a872c0b845a66e/sections/52aa112f5865b7f9ca65dee3de67f7f4/images/d44d7a097f2b2ff33a504d3a9a5e86d3/IMG_20170220_121229490.jpg);
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    h2 {
+      font-family: 'HelveticaNeue';
+      font-size: 55px;
+      color: #ffffff;
+      text-align: center;
+    }
+    h3 {
+      font-family: 'HelveticaNeue';
+      font-size: 38px;
+      color: #ffffff;
+      text-align: center;
+    }
+}
+
+.comofunciona__container {
+  margin-top: 55px;
+    h2 {
+      font-family: 'HelveticaNeueBold';
+      color: #484848;
+      text-align: center;
+    }
+}
+
+.registrate__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botones__container {
+  display: flex;
+  width: 190px;
+  justify-content: space-between;
+  padding-top: 25px;
+    button{
+      border-radius: 50px
+    }
+}
+
+.botones--comprar {
+  background-color: #e66700;
+  font-family: 'HelveticaNeue';
+  color: #ffffff;
+  border: none;
+
+}
+
+.botones--vender {
+  background-color: #f7971c;
+  font-family: 'HelveticaNeue';
+  color: #ffffff;
+  border: none;
+
+}
